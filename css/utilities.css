@@ -38,3 +38,17 @@
   background-color: #f4f4f4;
   color: #333;
 }
+
+/* Flex-items */
+
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center; /*main axis */
+  align-items: center;
+  height: 100%;
+}
+
+.flex-items > div {
+  padding: 20px;
+}
